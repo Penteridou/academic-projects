@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MyWorld1
+comment0.text=\r\n\ A\ background\ with\ a\ path\ drawn\ on\ it.\ Two\ different\ backgrounds\ are\ available.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=MyWorld1()
+comment1.text=\r\n\ Create\ the\ field.\r\n
+comment2.params=
+comment2.target=void\ prepare()
+comment2.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\r\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\r\n
+comment3.params=
+comment3.target=void\ resetLevelTimer()
+comment3.text=\r\n\ reset\ current\ level\ Timer\r\n
+comment4.params=
+comment4.target=boolean\ checkTimeOut()
+comment4.text=\r\n\ check\ if\ current\ level\ Timer\ is\ 0\ (time\ out)\r\n
+comment5.params=
+comment5.target=int\ calculateLevelScore()
+comment5.text=\r\n\ Calculates\ current\ level\ score\ according\ to\ the\ current\ level\ time.\ \r\n
+numComments=6

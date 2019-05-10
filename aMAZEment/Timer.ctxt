@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Timer
+comment1.params=
+comment1.target=Timer()
+comment10.params=
+comment10.target=void\ start()
+comment11.params=
+comment11.target=void\ stop()
+comment2.params=timeBeforeEvent
+comment2.target=Timer(int)
+comment3.params=timeBeforeEvent\ getsStarted
+comment3.target=Timer(int,\ boolean)
+comment4.params=timeBeforeEvent\ getsStarted\ total
+comment4.target=Timer(int,\ boolean,\ java.lang.String)
+comment5.params=timeBeforeEvent
+comment5.target=void\ setTimer(int)
+comment6.params=
+comment6.target=void\ updateImage()
+comment7.params=total
+comment7.target=void\ updateImage(java.lang.String)
+comment8.params=
+comment8.target=void\ act()
+comment9.params=
+comment9.target=int\ getTime()
+numComments=12

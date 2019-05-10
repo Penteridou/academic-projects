@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=MyWorld4
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ MyWorld4\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=mh\ t
+comment1.target=MyWorld4(MyHero,\ Timer)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld4.\r\n\ \r\n
+comment2.params=mh\ t
+comment2.target=void\ prepare(MyHero,\ Timer)
+comment3.params=
+comment3.target=void\ resetLevelTimer()
+comment3.text=\r\n\ reset\ current\ level\ Timer\r\n
+comment4.params=
+comment4.target=boolean\ checkTimeOut()
+comment4.text=\r\n\ check\ if\ current\ level\ Timer\ is\ 0\ (time\ out)\r\n
+comment5.params=
+comment5.target=int\ calculateLevelScore()
+comment5.text=\r\n\ Calculates\ current\ level\ score\ according\ to\ the\ current\ level\ time.\ \r\n
+numComments=6

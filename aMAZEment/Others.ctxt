@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Others
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ TheChar\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\r\n\ Move\ forward\ in\ the\ current\ direction.\r\n
+comment2.params=
+comment2.target=boolean\ atWorldEdge()
+comment2.text=\r\n\ Test\ if\ we\ are\ close\ to\ one\ of\ the\ edges\ of\ the\ world.\ Return\ true\ if\ we\ are.\r\n
+comment3.params=clss
+comment3.target=boolean\ canSee(java.lang.Class)
+comment4.params=clss
+comment4.target=void\ eat(java.lang.Class)
+comment4.text=\r\n\ Try\ to\ eat\ an\ object\ of\ class\ 'clss'.\ This\ is\ only\ successful\ if\ there\r\n\ is\ such\ an\ object\ where\ we\ currently\ are.\ Otherwise\ this\ method\ does\r\n\ nothing.\r\n
+numComments=5

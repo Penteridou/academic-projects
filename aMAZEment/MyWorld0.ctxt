@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=MyWorld0
+comment0.text=\r\n\ A\ background\ with\ a\ path\ drawn\ on\ it.\ Two\ different\ backgrounds\ are\ available.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=MyWorld0()
+comment1.text=\r\n\ Create\ the\ field.\r\n
+comment2.params=
+comment2.target=void\ prepare()
+comment2.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\r\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\r\n
+numComments=3
