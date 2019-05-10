@@ -1,0 +1,87 @@
+h1{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: purple;
+}
+
+.uomTable{
+	
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	
+}
+	
+	.uomTable td{
+    border: 1px solid #ddd;
+    padding: 8px;
+	
+}
+	
+	.uomTable tr:nth-child(even) td{
+		background-color: #f2f2f2;
+		}
+	
+	
+
+	thead tr {
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: pink;
+   }
+	
+	tfoot tr {
+	padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: pink;
+    color: purple;	
+	font-style: bold;
+	font-size:25px;
+	}
+	
+	.deleteButton{
+		padding:8px;
+		 margin-right:-10px;
+		 margin-left: 30px;
+		  
+		   width: 100px;
+	}
+	
+	thead  button {
+		font-size: 20px;	
+		
+	}
+	.deleteButton:hover{
+		background-color: pink;	
+	}
+	
+	.duplicateButton{
+		padding:8px;
+		margin-left: 20px;
+		 transition-duration: 0.4s;
+		 margin-right:-100px;
+		  width: 100px;
+	}
+	
+	.duplicateButton:hover{
+		background-color: pink;	
+	}
+	
+	.wrapper{
+		
+	}
+	
+	.buttons{
+		border: 1px solid #ddd;
+   
+	}
+	
+	.options{
+		border: 1px solid #ddd;
+    
+	}
+
+	
+	

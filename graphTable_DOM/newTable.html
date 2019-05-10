@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<!-- ------Penteridou Nikolina | mai18089 ---------DOM PROJECT ---------------------------------------------------------->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+<html>
+<head>
+ <H1>  Create the graph of your own choice!</H1>
+</head>
+<body>
+<link rel="stylesheet" href="newTableCss.css">
+
+
+
+	<table border= "0" class="uomTable">
+
+			 <thead>
+				  <tr><td>Height</td><td>Score</td><td>Income</td><td>Age</td></tr>
+			 </thead>
+			 <tbody>
+				 <tr><td>101</td><td>87.7</td><td>12000</td><td>29</td></tr>
+				 <tr><td>220</td><td>97.1</td><td>10200</td><td>25</td></tr>
+				 <tr><td>301</td><td>58.2</td><td>17100</td><td>31</td></tr>
+				 <tr><td>421</td><td>34.4</td><td>13000</td><td>25</td></tr>
+				 <tr><td>424</td><td>66.6</td><td>14500</td><td>35</td></tr>
+			 </tbody>
+			 <tfoot>
+			     
+			 </tfoot>
+				
+				
+	</table>
+	
+	 <div class="wraper">
+		
+		 <form action="">
+			<H3> Check the graph style you prefer</H3>
+			 <label class="radioDescriptions">Line chart
+		  <input type="radio" name ="chartStyle" id="radioB1" value="line" checked = "true" onclick=" return myChart()" >
+		   
+			
+		   <label class="radioDescriptions">Bar chart
+		  <input type="radio" name ="chartStyle" id="radioB2" value="bar" onclick=" return myChart()"> 
+		    
+		</form>
+		
+		<p class="options">  
+			
+			<H2> Pick two parameters for your graph </H2>
+			<input type="checkbox" id="myCheck1" onclick=" return myChart()">Height<br>
+			<input type="checkbox" id="myCheck2" onclick="return myChart()">Score<br>
+			<input type="checkbox" id="myCheck3" onclick="return myChart()">Income<br>
+			<input type="checkbox" id="myCheck4" onclick="return myChart()">Age<br>
+		</p>
+	 <p class="buttons">
+	
+	 <button  id="storeSS"> Store Local Storage data to Session storage </button> 
+	 <button  id="sClear">Clear Session Storage</button> 
+	 <button id="lClear">Clear Local Storage</button>
+	 </p>
+	
+		
+	
+	
+	</div>
+	
+	
+	</canvas><canvas id="myChart"></canvas>
+	 
+	 <ul id="localStorage">LIST OF PAIRS SAVED IN LOCAL STORAGE</ul>
+	 
+	
+	 
+	
+	 
+ 
+
+	 
+	 
+		
+
+	<script src="newTableJs.js"></script>
+	
+
+	
+</body>
+
+</html>
